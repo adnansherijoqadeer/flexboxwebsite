@@ -1,0 +1,691 @@
+ body{
+	margin: 0px;
+	padding: 0px;
+}
+#starcast{
+	background-image: url(img/bg-sec1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:600px;
+	width: 100%;
+}
+#starcast h1{
+	margin: 0px;
+	padding: 0px;
+}
+ #starcast .starcast-intro h1{
+   	font-family: Yu Gothic Light;
+   	font-size: 60px;
+   	font-weight: lighter;
+}
+.starcast-intro{
+    color: white;	
+    position: relative;
+    left:22.5%;
+    top: 200px;
+    text-align: center;
+    box-sizing:border-box;
+    width: 55%;
+    font-size: 20px;
+}
+.starcast-intro span{
+	font-size: 55px;
+	position: relative;
+	bottom: -20px;
+}
+button{
+	background: transparent;
+	color: white;
+    border-radius: 3px; 
+    width: 180px;
+    height: 60px;
+    margin-left:20px;
+    margin-right:10px;
+    margin-top: 20px;
+    outline: none;
+}
+button:hover{
+    background-color: #fff;
+	border: none;
+	color: #000;
+    cursor: pointer;
+}
+#boxes{
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	display: inline-block;
+	height: 770px;
+	top: 25px;
+	position: relative;
+}
+.boxes-head{
+	color: brown;	
+    position: relative;
+    left: 0px;
+    top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.boxes-head h2{
+	margin-bottom: 15px;
+	font-family: cursive;
+}
+.boxes-box{
+	box-sizing: border-box;
+	width:30%;
+	height: auto; 
+    color: brown;
+    float: left; 
+    text-align: center;   
+}
+.boxes-box i:hover{
+	color:yellow; 
+}
+.boxes-ist-boxes{
+	position: relative;
+	display:inline-block;
+	float: left;
+	text-align: center;
+	color: brown;
+	position: relative;
+	left: 22.5%;
+	top: 70px;
+}
+.boxes-2nd-boxes{
+	position: relative;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	color: brown;
+	left: 22.5%;
+	top: 100px;
+}
+.boxes-box i{
+	width: 30px;
+	padding: 15px;
+	display: inline-block;	
+	border: 16px solid;
+	background-color:red;
+	font-size: 2em;
+	color: brown;
+	border-radius: 200%;
+    text-align: center;
+    margin-bottom: 10px;		
+}
+.boxes-box .fa.fa-whatsapp{
+	background-color:chocolate;
+	border-color: chocolate;
+	font-weight: bold; 
+}
+.boxes-box .fa.fa-google{
+	background-color: yellowgreen;
+	border-color: yellowgreen;
+	font-weight: bold; 
+}
+.boxes-box .fa.fa-opera{
+	background-color:darkcyan;
+	border-color: darkcyan;
+	font-weight: bold; 
+}
+#video{
+    width: 100%;
+    height: 720px;
+    position: relative;
+    background-color: #dcdcdc;
+    top: 50px;
+}
+.video-head{
+	color: brown;	
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    top: 70px;
+}
+#video .video-head h2{
+	position: relative;
+	top: -20px;
+	margin-bottom: -30px;
+	font-family: cursive;
+}
+.video-sizing{
+	width: 710px;
+	height: 400px;
+	box-sizing: border-box;
+	position: relative;
+	left: 24%;
+	top: 120px;
+	display: none;
+}
+#cmnts-section{
+	background-image: url(img/bg-sec4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 100%;
+	position:relative;
+	top: 80px;
+}
+.cmnts-heading{
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 50px;
+	font-size: 20px;
+}
+.cmnts-heading h2{
+	font-size: 35px;
+	color:white;
+	text-align: center; 
+	position: relative;
+	bottom: -30px;
+}
+.cmnt{
+	box-sizing: border-box;
+	width: 30%;
+	height: 220px;
+	background-color:whitesmoke;
+	float: left;
+	display: inline;
+	margin: 20px;
+	padding: 20px;
+	position: relative;
+	top: 50px;
+}
+.cmntr-name{
+	font-size: 25px;
+    color: #4B0082;
+    margin-top: 10px;
+}
+.cmnt{	
+	font-size: 20px;
+	color: brown;
+	margin-top: -5px;
+	font-style: italic;
+}
+.cmntr-profession{
+	font-size: 18px;
+    color: gold;
+    margin-top: -20px;
+}
+.cmnt i{
+	color: gold;
+}
+.cmntr{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	position: absolute;
+	top: 160px;
+	left:75%;
+}
+#services-icons{
+	position: relative;
+	top: 150px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 600px;
+	display: inline-block;
+}
+.services-heading{
+	font-size: 35px;
+	color:brown;
+	text-align: center; 
+	position: relative;
+}
+.services-heading p{
+	font-size: 25px;
+	color:brown;
+	position: relative;
+	text-align: center; 
+	top: -30px;
+}
+.service-title-box1{
+	box-sizing: border-box;
+	width: 500px;
+	height: auto;
+	text-align: left;
+	color: brown;
+}
+.service-details{
+	box-sizing: border-box;
+	width: 60%;
+}
+.service-title-boxes{
+	display: inline-flex;
+	position: relative;
+	left: 20%;
+}
+.service-details p{
+	position: relative;
+	left: 20px;
+	top: -15px;
+}
+.service-title-box2{
+	box-sizing: border-box;
+	width: 500px;
+	text-align: left;
+	color: brown;
+}
+ #services-icons i:hover{
+	font-size: 20px;
+	color:#FFD700;
+	background-color: #DCDCDC;
+	cursor: pointer;
+}
+#job-offer{
+	background-image: url(img/bg-sec6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height:600px;
+	position: relative;
+	top: 150px;
+}
+.job-offer-heading{
+    color: white;	
+    position: relative;
+    left:25%;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    
+}
+.job-offer-heading h2{
+	font-size: 30px;
+	font-family: cursive;
+	text-align: center;
+	position: relative;
+	bottom: -20px;
+}
+.job-offer-heading hr{
+	width: 100%;
+	position: relative;
+	color: brown;
+}
+.job-offer-heading p{
+	text-align: center;
+	font-size:20px;
+	color: white;
+    position:relative; 
+    bottom: -10px;
+}
+.job-details{
+	display: inline-flex;
+	position: relative;
+	left: 15%;
+	top: 70px;
+	font-size: 16px;
+}
+.job-position{
+	box-sizing: border-box;
+	width: 500px;
+	text-align: left;
+	color: white;
+}
+.designation{
+	box-sizing: border-box;
+	width: 600px;
+	text-align: left;
+	color: white;
+}
+.designation p{
+	position: relative;
+	top: -15px;
+}
+#inline-company-logoes{
+	position: relative;
+	top:150px
+}
+.inline-company-logoes-line1{
+	color: #708090;
+    box-sizing: border-box;
+    width: 80%;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 10%;
+}
+.inline-company-logoes-line1 h2{
+	display: inline;
+	margin-right: 70px;
+}
+.inline-company-logoes-line1 i{
+	margin-right: 40px;
+}
+.inline-company-logoes-line1  i:hover{
+	font-size: 30px;
+	color:#FFD700;
+	background-color: #DCDCDC;
+}
+.inline-company-logoes-line2{
+	color: #708090;
+    position: relative;
+    top: 65px;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    box-sizing: border-box;
+    left: 12%;
+}
+.inline-company-logoes-line2 i{
+	margin-right: 40px;
+}
+.inline-company-logoes-line2 i:hover{
+	font-size: 30px;
+	color:#FFD700;
+	background-color: #dcdcdc;
+}
+.inline-company-logoes-line2 h6{
+	font-size: 15px;
+	position: relative;
+	margin-right: 115px;
+	display: inline;
+}
+#subscribe{
+	background-image: url(img/4.jpg);
+	width: 100%;
+	height: 300px;
+	position: relative;
+	background-position: center;
+	top: 250px;
+}
+.subscribe-box{
+	box-sizing: border-box;
+	width: 90%;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	top: 50px;
+	left: 5%;
+}
+.subscribe-box h1{
+	margin: 0px;
+	padding: 0px;
+	font-size: 40px;
+	font-weight: lighter;
+}
+.subscribe-box input[type="text"]{
+	width: 45%;
+	height: 40px;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #ffff;
+	text-align: center;
+    position: relative;
+    bottom: -10px;
+}
+.subscribe-box input[type="text"]:hover{
+	font-size: 25px;
+	border: 2px solid;
+	color: rgba(255,255,255,.5);
+}
+::placeholder{
+    color: rgba(255,255,255,.5);
+}
+#in-touch{
+	box-sizing: border-box;
+	width: 100%;
+	height: 400px;
+	position: relative;
+	top: 300px;
+	text-align: center;
+}
+.in-touch-box h1{
+	color: #708090;
+	font-family: cursive;
+	position: relative;
+	top: 30px;	
+}
+.sources-of-in-touch{
+	display: inline;
+	text-align: center;
+	box-sizing: border-box;
+	width: 25%;
+	color: #708090;
+	font-size: 20px;
+	position: relative;
+	top: 100px;
+	float: left;
+	left: 13%;
+}
+.sources-of-in-touch i{
+	width: 40px;
+	padding: 15px;
+	display: inline-block;
+	border: 5px solid;
+	font-size: 2em;
+	color:#708090	;
+	border-radius: 200%;
+    text-align: center;		
+}
+.sources-of-in-touch .fa.fa-mobile{
+	background-color: cadetblue;
+}
+.sources-of-in-touch .fa.fa-inbox {
+	background-color: yellowgreen;
+}
+.sources-of-in-touch .fa.fa-skype{
+	background-color: chocolate;
+}
+.sources-of-in-touch i:hover{
+	border-color:yellow; 
+    background-color:#efed40;
+    color:brown; 
+}
+#form{
+	/* position: relative; */
+	background-image: url(img/bg-sec10.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	position: relative;
+	top: 250px;
+}
+#form h1{
+    margin: 0px;
+    padding: 0px;
+}
+.form-box form{
+	width:100%;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.form-box{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 550px;
+	padding: 40px 40px;
+	text-align: center;
+	height: 500px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+.form-box h1{
+	position: relative;
+	top: -30px;
+	font-size: 40px;
+	color: gold;
+
+}
+.form-box label{
+	font-weight: bold;
+	font-family: cursive;
+	color: white;
+	display: grid;
+	margin: 10px;
+}
+.form-box input[type="text"]{
+	width: 90%;
+	height: 45px;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid;
+	border-color: rgba(255,255,255,.5);
+	box-sizing: border-box;
+	text-align: center;
+	outline: none;
+}
+.form-box i{
+	color: white;
+	font-size: 16px;
+	position: absolute;
+	text-align: center;
+	width: 20px;
+}
+.form-box form .fa.fa-users{
+	text-align: center;
+	margin-top: 15px;
+}
+.form-box form .fa.fa-inbox{
+	text-align: center;
+	margin-top: 15px;
+}
+.form-box textarea:hover{
+	color: brown;
+	font-size: 20px;
+	border: 2px solid;
+	border-color:rgba(255,255,25);
+}
+.form-box input[type="text"]:hover{
+	color: brown;
+	font-size: 20px;
+	border: 2px solid;
+	border-color:rgba(255,255,25);
+}
+.form-box textarea{
+	width: 90%;
+	height: 100px;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid;
+	border-color: rgba(255,255,255,.5);
+	box-sizing: border-box;
+	text-align: center;
+	outline: none;
+}
+.form-box textarea:hover{
+	color: brown;
+	font-size: 20px;
+	border: 2px solid;
+	border-color:rgba(255,255,25);
+}
+#page-info{
+	width: 100%;
+	height: 250px;
+	position: relative;
+	top: 300px;
+}
+.page-info-box{
+   box-sizing: border-box;
+   width: 180px;
+   height: auto;
+   color: #708090;
+   float: left;
+}
+.page-info-box li a:hover{
+	color: darkblue;
+}
+.page-info-box a{
+	text-decoration: none;
+	color: steelblue;
+}
+.page-info-box1{
+	box-sizing: border-box;
+	width: 280px;
+	height: auto;
+	float: left;
+	color: steelblue;
+	margin-left: 60px;
+}
+.page-info-box ul{
+	list-style-type: none;
+}
+.page-info-boxes{
+	position: relative;
+	box-sizing: border-box;
+	width: 80%;
+	height: auto;
+	left: 13%;
+} 
+.page-info-box1 ::placeholder{
+	color: steelblue;
+	text-align: center;
+}
+.page-info-box1 i{
+	box-sizing: border-box;
+	width: 25px;
+	height: 20px;
+	border:1px solid;
+	margin-left: -5px;
+	text-align: center;
+}
+.page-info-box1 input[type="text"]:hover{
+	color: brown;
+	font-size: 20px;
+	border: 2px solid;
+	border-color:rgba(255,255,25);
+}
+#footer{
+	position: relative;
+	top: 300px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 70px;
+	background-color: black;
+}
+.footer-p{
+    box-sizing: border-box;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    color: rgba(255,255,255,.5);
+    padding: 10px;
+}
+#footer i{
+	font-size: 16px;		
+	text-align: center;
+	box-sizing: border-box;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-right: 20px;
+	color: white;
+	padding: 8px;
+}
+#footer i:hover{
+	width: 35px;
+	height: 35px;
+	font-size: 20px;
+	border-color: white;
+	border: 3px solid white;
+}
+.footer ul{
+	display: flex;
+	list-style-type: none;
+	margin-right: 190px;
+	margin-top: -30px;
+	float: right;
+	padding: 0px;
+}
+.footer .fa.fa-twitter{
+	background-color: cornflowerblue;
+}
+.footer .fa.fa-facebook{
+	background-color: blue;
+}
+.footer .fa.fa-google{
+	background-color: yellowgreen;
+}
+.footer .fa.fa-camera{
+	background-color: red;
+}
+.footer .fa.fa-mobile{
+	background-color: orange;
+}
